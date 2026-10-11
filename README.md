@@ -3,7 +3,23 @@
 
 
 1️⃣ What is the difference between var, let, and const?
+answer:var
+* reassignable 
+*not block scoped 
+*avoid in modern js
+
+let can change the value later 
+*reassignable 
+*block scoped 
+*modern js
+
+const used when the variable itself will not be reassigned.
+*modern js
+*block scoped
+*by default
+
 2️⃣ What is the spread operator (...)?
+answer: The spread operator (...) expands or unpack the elements of an array or the properties of an object.
    
 3️⃣ What is the difference between map(), filter(), and forEach()?
 
