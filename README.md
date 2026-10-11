@@ -27,11 +27,11 @@ answer: The spread operator (...) expands or unpack the elements of an array or 
       filter() is used to select specific items from an array and return new array.
       forEach() is used to loop through an array and it does not create a new arry.
 
-    4️⃣ What is an arrow function?
+4️⃣ What is an arrow function?
     answer: arrow function is a shorter  syntax for writing a function.
 
 
-    5️⃣ What are template literals?
+5️⃣ What are template literals?
     Answer: template literals are strings written with  backticks and  that allow variables and expressions to be inserted using ${ } .
 
 
