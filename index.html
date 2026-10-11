@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Issues Tracker | Login</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap" 
+rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<style>
+     *{
+         font-family: "Geist", sans-serif;
+     }
+</style>
+
+</head >
+<body class="min-h-screen bg-slate-50" >
+    <div class="min-h-screen flex items-center justify-center "  >
+        <div class=" h-[650px]   max-w-[520px] w-full rounded-md mx-auto  bg-white border-white shadow-sm">
+<div class="logo w-[100px]  mx-auto pt-[32px]" > 
+    <img src="./assets/github-logo.png" alt="">
+    
+</div>
+<div class="text-center pt-1">
+    <h3 class="font-semibold text-2xl  text-gray-800" >GitHub Issues Tracker</h3>
+    <p class="font-normal text-xs  text-slate-500 ">Sign in to manage your issues</p>
+</div>
+
+ <div class="form pt-2">
+        <div class="card bg-base-100 w-full max-w-sm shrink-0  mx-auto rounded">
+            <div class="card-body">
+                <fieldset class="fieldset">
+                    <label class="label text-neutral font-bold">Usernamer</label>
+                    <input id="input-name" maxlength="" minlength="" type="text"
+                        class="input text-slate-500 border-none bg-base-200 rounded-full" value=""
+                        placeholder="Enter your username" />
+                       
+                    <br>
+
+                    <label class="label text-neutral font-bold">Passward</label>
+                    <input id="input-pin" type="password" maxlength="" class="input   border-none bg-base-200 rounded-full"
+                        placeholder = "Enter Passward"  />
+                        
+                    <button id="sign-btn" class="btn btn-primary mt-4 rounded-md">Sign In</button>
+                    
+                        <div class="flex items-center mt-5">
+                            <div class="flex-1 border-t border-zinc-200"></div>
+                            <span class="mx-3 text-base text-gray-800">OR</span>
+                            <div class="flex-1 border-t border-zinc-200"></div>
+                        </div>
+                        
+                        <div>
+                            <h4 class="text-center text-slate-500 mb-2">Demo Credentials:</h4>
+                           <div class="bg-slate-100 text-center rounded-md p-3">
+                             <p>Username : admin</p>
+                            <p>Passward : admin123</p>
+                           </div>
+                        </div>
+                  
+                </fieldset>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+ 
+<script src="script/login.js"></script>
+
+</body>
+</html>
