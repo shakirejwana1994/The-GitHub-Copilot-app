@@ -183,7 +183,7 @@ issues.forEach((issue) => {
      
 
      if (issue.status==="open") {
-     statusIcon ="./assets/Open-Status.png";
+     statusIcon = "./assets/Open-Status.png";
       statusBorder = "border-t-3   border-green-500"
      }else if (issue.status === "closed") {
       statusIcon ="./assets/Closed- Status .png";
